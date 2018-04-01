@@ -1,0 +1,89 @@
+<publishEvent>     
+	<EventEnvelope>
+		 <Header>            
+			<siid>a4a23e88-d388-4f2d-963d-66a65fcc5030</siid>             
+			<MsgUID>7756e958-0b4a-44ef-a953-1f4d066cb08f</MsgUID>             
+			<RqClientId>DBIND</RqClientId>             
+			<ServiceProviderName/>             
+			<OperationName>PartyDataManagement/v1_1/readParty</OperationName>            
+			<Ctry>IN</Ctry>             
+			<Event>                 
+				<EventType>Party</EventType>                 
+				<EventAction>PartyRead</EventAction>                 
+				<EventSource/>                 
+				<EventReason>Success</EventReason>                 
+				<EventDateTime>2017-10-02T12:22:57.498+07:00</EventDateTime>             
+			</Event>             
+			<ServiceHeader>                 
+				<MsgDetl mustUnderstand="false">                     
+				<MsgVersion>4.0</MsgVersion>                     
+				<MsgUID>63ON2256037765333524</MsgUID>                 
+				</MsgDetl>                 
+					<Trace mustUnderstand="false">                    
+					<RqDateTime>2017-10-02T12:22:57.498+07:00</RqDateTime>                     
+					<RqClient>                         
+						<RqClientId>DBIND</RqClientId>                         
+						<RqClientOrg>2004</RqClientOrg>                         
+						<RqClientCtry>ID</RqClientCtry>                     
+					</RqClient>                 
+					</Trace>             
+			</ServiceHeader>         
+		</Header>        
+			<Body>            
+				<EventNotificationDetails>                 
+					<LCIN>ID30619514</LCIN>                 
+					<CIF>2224453</CIF>                 
+					<Party>                     
+						<PartyName>KIRAN ONE</PartyName>                     
+						<PartyType>R</PartyType>                     
+						<MaritalStatus>1</MaritalStatus>                     
+						<CustDoc>                         
+							<DocType>10</DocType>                         
+							<DocNum>4573886675687350</DocNum>                     
+						</CustDoc>                     
+						<Phone>                         
+							<PhoneType>04</PhoneType>                         
+							<PhoneNum>8745266366</PhoneNum>                     
+						</Phone>                     
+						<Email>                         
+							<EmailAddrType>PER</EmailAddrType>                         
+							<EmailAddr>KIRAN1@xml.COM</EmailAddr>                     
+						</Email>                     
+						<Address>                         
+							<AddrType>WORK</AddrType>                         
+							<AddrLine>HALIM PERDANA KUSUMAH, EAST JAKARTA CITY,</AddrLine>                         
+							<AddrLine>JAKARTA, INDONESIA</AddrLine>                         
+							<AddrLine/>                         
+							<AddrLine/>                         
+							<PostalCode>96589</PostalCode>                         
+							<City>BANGKA SELATAN</City>                         
+							<StateProvince>INABB</StateProvince>                         
+							<Ctry/>                     
+						</Address>                     
+						<Address>                         
+							<AddrType>MAIL</AddrType>                         
+							<AddrLine>HALIM PERDANA KUSUMAH, EAST JAKARTA CITY,JAKA</AddrLine>                         
+							<AddrLine>RTA, INDONESIA</AddrLine>                         
+							<AddrLine/>                         
+							<AddrLine/>                         
+							<PostalCode>96589</PostalCode>                         
+							<City>BANGKA SELATAN</City>                         
+							<StateProvince>INABB</StateProvince>                         
+							<Ctry>IN</Ctry>                     
+						</Address>                     
+						<Address>                         
+							<AddrType>RES</AddrType>                         
+							<AddrLine>ADDRLINE1,ADDRLINE2,ADDNLADDR1,ADDNLADDR2,EST</AddrLine>                         
+							<AddrLine>ATE,DISTRICT</AddrLine>                         
+							<AddrLine/>                         
+							<AddrLine/>                         
+							<PostalCode>542259</PostalCode>                         
+							<City>KLATEN</City>                         
+							<StateProvince>INALP</StateProvince>                         
+							<Ctry/>                     
+						</Address>                 
+					</Party>             
+			</EventNotificationDetails>         
+				</Body>     
+		</EventEnvelope> 
+</publishEvent>
